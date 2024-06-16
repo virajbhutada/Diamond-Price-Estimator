@@ -114,7 +114,7 @@ These metrics help gauge the model's accuracy, reliability, and suitability for 
 ---
 
 
-### Environment Setup and Usage
+## Environment Setup and Usage
 
 This repository provides a comprehensive machine learning project for diamond price prediction. Follow these steps to set up the environment and use the Diamond Price Estimator:
 
@@ -143,7 +143,17 @@ This repository provides a comprehensive machine learning project for diamond pr
 - **Access the prediction interface:**
   Open your web browser and go to `http://localhost:5000` to use the diamond price prediction form.
 
-This streamlined approach ensures a smooth setup and usage process for the Diamond Price Estimator project, facilitating seamless interaction with the prediction model. Adjust commands and paths as necessary based on your specific environment and requirements.
+This streamlined approach ensures a smooth setup and usage process for the Diamond Price Estimator project, facilitating seamless interaction with the prediction model. Adjust commands and paths as necessary based on your specific environment and requirements. 
+
+---
+
+### Contributing
+
+
+[![Clone](https://img.shields.io/badge/GitHub-Clone-green?logo=github)](https://github.com/virajbhutada/Diamond-Price-Estimator) [![Push](https://img.shields.io/badge/GitHub-Push-blue?logo=github)](https://github.com/virajbhutada/Diamond-Price-Estimator) [![Pull](https://img.shields.io/badge/GitHub-Pull%20latest-yellow?logo=github)](https://github.com/virajbhutada/Diamond-Price-Estimator) [![Issues](https://img.shields.io/badge/GitHub-Issues-red?logo=github)](https://github.com/virajbhutada/Diamond-Price-Estimator/issues)
+
+
+
 
 ---
 
