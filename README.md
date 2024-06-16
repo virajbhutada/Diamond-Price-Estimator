@@ -15,6 +15,8 @@
   - [Model Evaluation](#model-evaluation)
 - [Environment Setup and Usage](#environment-setup-and-usage)
 - [User Interface and Visualizations](#user-interface-and-visualizations)
+  - [Prediction Form Interface](#prediction-form-interface)
+  - [Detailed Result Page](#detailed-result-page)
 - [MIT License](#mit-license)
 
 ---
@@ -23,17 +25,35 @@
 
 This project develops a predictive model for estimating diamond prices based on their characteristics such as carat, cut, color, and clarity. It includes data preprocessing, feature engineering, model selection, training, and evaluation, culminating in a web application for users to input diamond attributes and receive price predictions.
 
+The application of this predictive model aims to democratize access to accurate pricing information, empowering stakeholders across the diamond industry to make informed decisions. Whether buying, selling, or managing inventory, users benefit from enhanced transparency and predictive insights, thereby driving efficiency and competitiveness within the market.
+
 ---
 
 ## Dataset Description
 
-The dataset used for this project contains various attributes of diamonds, including carat weight, cut quality, color grade, clarity rating, dimensions, and price in US dollars.
+The dataset utilized in this project encompasses comprehensive attributes of diamonds, crucial for predictive analysis and modeling. These attributes include:
+
+
+| Attribute   | Description                                                                                     |
+|-------------|-------------------------------------------------------------------------------------------------|
+| Carat       | Weight of the diamond                                                                           |
+| Cut         | Quality of the cut (categories range from Fair to Ideal)                                         |
+| Color       | Diamond color, graded from J (worst) to D (best)                                                 |
+| Clarity     | Clarity rating, ranging from I1 (worst) to IF (best)                                             |
+| Dimensions  | Physical dimensions of the diamond represented by length (x), width (y), and depth (z) in mm    |
+| Depth       | Total depth percentage calculated as z / mean(x, y)                                               |
+| Table       | Width of the top of the diamond relative to the widest point                                      |
+| Price       | Price of the diamond in US dollars                                                              |
+
+This table summarizes the dataset attributes used in the project, providing a clear overview of each attribute's description and significance in the analysis of diamond pricing.
 
 ---
 
 ## Impact
 
 Accurate diamond price prediction aids buyers, sellers, and jewelers in making informed decisions. This model helps buyers find fair prices, assists sellers in setting competitive rates, and enables jewelers to manage inventory effectively.
+
+Moreover, by leveraging data-driven insights, stakeholders can anticipate market trends and fluctuations, thereby optimizing their business strategies. This predictive capability fosters transparency and trust within the diamond industry, enhancing overall market efficiency and consumer satisfaction.
 
 ---
 ---
